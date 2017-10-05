@@ -1,0 +1,110 @@
+body {
+	background-color: #6441a5;
+	font-family: Ubuntu, sans-serif;	
+}
+
+#container-box {
+	width: 400px;
+}
+
+#twitch-logo {
+	width: 400px;
+	margin-top: 20px;
+}
+
+#tabs {
+	margin: -4px 0px -4px 0px;
+	background-color: #6441a5;
+	color: #fff;
+	font-size: 1.5em;
+	border: 1px white solid;
+}
+
+.tab {
+	padding: 0 10px 0 10px;
+}
+
+.tab:hover {
+	cursor: pointer;
+}
+
+.active {
+	font-weight: 700;
+	color: #6441a5;
+	background-color: #fff;
+	border: 1px white solid;
+}
+
+#big-box {
+	margin: 0px 0px 20px 0px;
+	padding: 5px;
+	background-color: #fff;
+	color: #6441a5;
+}
+
+#search-container {
+	padding: 5px 5px 5px 5px;
+	border: 1px grey solid;
+	width: 300px;
+	margin: 0 auto;	
+	border-radius: 5px;
+}
+
+#outer-search-container {
+	border-bottom: 1px #6441a5 dotted;
+	padding-bottom: 5px;
+}
+
+#search-form {
+	border-color: transparent;
+	color: #6441a5;
+}
+
+
+/* Twitch Content Area Styling */
+#twitch-content{
+	
+}
+
+.user {
+	margin: 0px 0 10px 0;
+	padding: 5px;
+	position: relative;
+}
+
+.user img {
+	height: 75px;
+}
+
+.username {
+	margin-left: 10px;
+}
+
+.username a {
+	color: #6441a5;
+}
+
+.username a:hover {
+	color: #331775;
+}
+
+.status {
+	font-weight: 300;
+	font-size: .75rem;
+	font-style: italic;
+	position: absolute;
+	left: 90px;
+	bottom: 18px;
+}
+
+.icon-active {
+	float: right;
+	color: green;
+	line-height: 75px;
+}
+
+.icon-inactive {
+	float: right;
+	color: red;
+	line-height: 75px;
+}
